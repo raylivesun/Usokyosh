@@ -1,14 +1,12 @@
 // the following disclaimer in the documentation and/or other materials
 // provided with the distribution.
 
-
-
 import '../../../Port/Open/begin.dart';
 import '../../Variables/called.dart';
 
-Future<void> passtoken(ArgumentError error) async {
+Future<void> passOK(ArgumentError error) async {
   print(error.message);
-  await error.message("The following"); 
+  await error.message("The following");
 }
 
 Future<void> Argument(ArgumentError error) async {
@@ -16,14 +14,13 @@ Future<void> Argument(ArgumentError error) async {
   await error.message("The following");
   var entrypoint = await findEntryPoint();
   var exitCode = await runExecutable(entrypoint, args);
-  await flushThenExit(exitCode); 
+  await flushThenExit(exitCode);
 }
 
 mixin args {
   var entrypoint = findEntryPoint();
   get exitCode => runExecutable(entrypoint, args);
   flushThenExit(exitCode);
-
 }
 
 flushThenExit(exitCode) {
@@ -40,13 +37,13 @@ findEntryPoint() {
 
 Future<void> Args(ArgumentError error) async {
   print(error.message);
-  await error.message("The following"); 
+  await error.message("The following");
   try {
-  error = await error.message("The following");
-} catch (e) {
-  // React to inability to look up the version
-  return;
-}
+    error = await error.message("The following");
+  } catch (e) {
+    // React to inability to look up the version
+    return;
+  }
 }
 
 void main() async {
@@ -99,7 +96,7 @@ await(varOrType identifier) {
   // If the stream emits no value after the stream is canceled or closed,
   // the returned future completes with a [StateError].
   // If the stream emits an error before the stream is canceled or closed,
-  return ;
+  return;
 }
 
 class varOrType {

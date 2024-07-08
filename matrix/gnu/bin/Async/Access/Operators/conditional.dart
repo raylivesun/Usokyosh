@@ -1,6 +1,3 @@
-
-
-
 import 'dart:io';
 
 import '../Variables/values.dart';
@@ -109,43 +106,40 @@ mixin require {
 }
 
 Future<void> Oracles(ListMixin, Map, expr) async {
-
-for (var i = 0; i < ListMixin; i++) {
-    await expr?expr:expr;
+  for (var i = 0; i < ListMixin; i++) {
+    await expr ? expr : expr;
     print(i++);
     print(Path(i));
-}
+  }
 
-for (var i = 0; i < ListMixin; i++) {
-    await expr!=expr;
+  for (var i = 0; i < ListMixin; i++) {
+    await expr != expr;
     print(Path(i));
-}
+  }
 
-
-for (var i = 0; i < ListMixin; i++) {
-    await expr<=expr;
+  for (var i = 0; i < ListMixin; i++) {
+    await expr <= expr;
     print(i);
     print(Path(i));
-}
+  }
 
-for (var i = 0; i < ListMixin; i++) {
-    await expr<expr;
+  for (var i = 0; i < ListMixin; i++) {
+    await expr < expr;
     print(i);
     print(Path(i));
-}
+  }
 
-for (var i = 0; i < ListMixin; i++) {
+  for (var i = 0; i < ListMixin; i++) {
     await expr?.toString();
     print(i);
     print(Path(i));
-}
+  }
 
-for (var i = 0; i < ListMixin; i++) {
+  for (var i = 0; i < ListMixin; i++) {
     await expr!.toString();
     print(i);
     print(Path(i));
-}
-
+  }
 }
 
 int Path(int i) => i;
@@ -183,7 +177,6 @@ mixin isPublic {
   late Map<String, dynamic> jestSetupFiles;
   late Map<String, dynamic> jestSetupFilesAfterEnv;
   late Map<String, dynamic> jestTestPathIgnorePatterns;
-
 }
 
 mixin isPrivate {
@@ -213,9 +206,7 @@ mixin isPrivate {
   late Map<String, dynamic> jestPathIgnorePatterns;
   late Map<String, dynamic> jestModuleDirectories;
   late Map<String, dynamic> jestWatchPathIgnorePatterns;
-
 }
-
 
 String playerName(String? name) => name ?? 'Guest';
 
@@ -223,35 +214,36 @@ String playerEmail(String? email) => email ?? '<EMAIL>';
 
 String playerPassword(String? password) => password ?? '<PASSWORD>';
 
-String playerConfirmPassword(String? confirmPassword) => confirmPassword ?? '<PASSWORD>';
+String playerConfirmPassword(String? confirmPassword) =>
+    confirmPassword ?? '<PASSWORD>';
 
 String playerUsername(String? username) => username ?? 'Guest';
 
-void set accessSuccess(String? success) { 
+void set accessSuccess(String? success) {
 // Very long version uses if-else statement.
-(String? name) {
-  if (name != null) {
-    return name;
-  } else {
-    return 'Guest';
-  }
-};
+  (String? name) {
+    if (name != null) {
+      return name;
+    } else {
+      return 'Guest';
+    }
+  };
 }
 
- set accessError(String? error) {
+set accessError(String? error) {
   if (error != null) {
     var linkfiles = error;
     error = linkfiles;
-    return ;
+    return;
   } else {
-    return ;
+    return;
   }
 }
 
- String? Parts(String? error) => error;
+String? Parts(String? error) => error;
 
-class Token {
-  Token(String linkfiles);
+class OK {
+  OK(String linkfiles);
 }
 
- String Tokens(String error) => error;
+String OKs(String error) => error;
